@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form-Practice</title>
+</head>
+<body>
+
+    <section class="card">
+
+        <img src="img.jpeg" alt="img background" class="img">
+
+        <div class="card-container">
+
+            <h1 class="title">Form with Pseudoclass</h1>
+
+            <form class="form">
+
+                <div class="form-grid">
+                    
+                    <div class="form-container form-container--name">
+                        <label for="name" class="label">First Name</label>
+                        <input type="text" class="input" id="name">
+                    </div>
+    
+                    <div class="form-container form-container--surname">
+                        <label for="surname" class="label">Last Name</label>
+                        <input type="text" class="input" id="surname">
+                    </div>
+    
+                    <div class="form-container form-container--email">
+                        <label for="email" class="label">Email</label>
+                        <input type="email" class="input" id="email" placeholder="email@gmail.com">
+                    </div>
+    
+                    <div class="form-container form-container--textarea">
+                        <label for="textarea" class="label">Textarea</label>
+                        <textarea class="input input__textarea" id="textarea"></textarea>
+                        <span class="form-container__text">Use helper text to provide additional information.</span>
+                    </div>
+    
+                    <div class="form-container form-container--checkboxs">
+    
+                        <span class="form-container__title">Checkboxes</span>
+    
+                        <div class="form-container__box">
+    
+                            <input type="checkbox" id="checkbox1" class="input1">
+                            <label for="checkbox1" class="label label--box">Option 1</label>
+        
+                            <input type="checkbox" id="checkbox2" class="input1">
+                            <label for="checkbox2" class="label label--box">Option 2</label>
+    
+                        </div>
+                      
+                    </div>
+
+                </div>
+
+                <hr class="hr">
+
+                <div class="button-container">
+                    
+                    <button class="button">Submit</button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
